@@ -95,9 +95,9 @@
 		10FFF4BE22BE04B100007ECE /* TvOSMap */ = {
 			isa = PBXGroup;
 			children = (
+				10FFF4ED22BE05F200007ECE /* Views */,
+				10FFF4EC22BE05EA00007ECE /* Controllers */,
 				10FFF4BF22BE04B100007ECE /* AppDelegate.swift */,
-				10FFF4C122BE04B100007ECE /* ViewController.swift */,
-				10FFF4C322BE04B100007ECE /* Main.storyboard */,
 				10FFF4C622BE04B200007ECE /* Assets.xcassets */,
 				10FFF4C822BE04B200007ECE /* Info.plist */,
 			);
@@ -120,6 +120,22 @@
 				10FFF4DE22BE04B300007ECE /* Info.plist */,
 			);
 			path = TvOSMapUITests;
+			sourceTree = "<group>";
+		};
+		10FFF4EC22BE05EA00007ECE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10FFF4C122BE04B100007ECE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10FFF4ED22BE05F200007ECE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10FFF4C322BE04B100007ECE /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
